@@ -1,0 +1,75 @@
+ <div class="container-fluid d-block p-0">
+
+  <div class="row w-100 ms-0">
+    <div class="col-12 p-0">
+      <a href="#" class="text-black justify-content-center text-decoration-none">ECOSHOP</a>
+    </div>
+  </div>
+
+  <div class="mb-0" *ngFor="let item of itemsList; let i = index">
+    <a class="d-flex align-items-center text-decoration-none" (click)="routes(item, 'DropdownList' + i)"
+      href="#{{'DropdownList' + i}}" data-bs-toggle="collapse" aria-expanded="false">
+      <i class="{{item.nodeIcon}}"></i>
+      <span>{{ item.nodeName }}</span>
+      <i class="fa fa-angle-right ms-auto me-0 fs-5" *ngIf="item.type == 'sub'" aria-hidden="true"></i>
+    </a>
+
+    <ul class="ps-0 mb-0 h-0" id="{{ 'DropdownList' + i }}">
+      <li class="Dropdown-Item" *ngFor="let subItem of item.permissions" routerLink="{{ subItem.path }}">
+        <a class="text-decoration-none">{{ subItem.permissionName }}</a>
+      </li>
+    </ul>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container-fluid d-block p-0">
+  <div class="row w-100 ms-0">
+    <div class="col-12 p-0">
+      <a href="#" class="text-black justify-content-center text-decoration-none">ECOSHOP</a>
+    </div>
+  </div>
+  <div class="mb-0" *ngFor="let item of itemsList; let i = index">
+    <a class="d-flex align-items-center text-decoration-none" data-bs-toggle="dropdown">
+      <i class="{{item.nodeIcon}}"></i>
+      <span>{{ item.type }}</span>
+    </a>
+    <ul class="ps-0 mb-0 dropdown-menu">
+      <li class="dropdown-item" *ngFor="let subItem of item.permissions" routerLink="{{ subItem.path }}">
+        <a class="text-decoration-none">{{ subItem.permissionName }}</a>
+      </li>
+    </ul>
+  </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+

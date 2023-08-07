@@ -1,0 +1,67 @@
+.container-fluid {
+  padding: 70px 30px 0px 30px;
+  // z-index: -999;
+}
+
+.row {
+  width: 100%;
+  margin: 0px;
+}
+
+.heading {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.card-icon {
+  width: 80px;
+  height: 80px;
+  line-height: 90px;
+
+  i {
+    font-size: 25px;
+  }
+}
+
+// .cards {
+//   box-sizing: border-box;
+// }
+
+// .card {
+//   display: flex;
+//   // .card-icon {
+//   //   width: 80px;
+//   //   height: 80px;
+//   //   line-height: 90px;
+
+//   //   i {
+//   //     font-size: 25px;
+//   //   }
+//   // }
+// }
+
+
+// .card {
+//   display: -webkit-inline-box;
+//   margin-bottom: 30px;
+//   width: 100%;
+
+//   .card-icon {
+//     width: 80px;
+//     height: 80px;
+//     line-height: 90px;
+
+//     i {
+//       font-size: 25px;
+//     }
+//   }
+
+//   .card-header {
+//     padding-top: 25px !important;
+
+//     .card-title {
+//       font-size: 13px;
+//       color: #98a6ad;
+//     }
+//   }
+// }

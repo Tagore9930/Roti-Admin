@@ -1,0 +1,106 @@
+.container-fluid,
+li,
+a {
+  /* Text Design code */
+  color: #6c757d;
+  letter-spacing: 1.5px;
+  font-family: system-ui;
+  font-size: 14px;
+  font-weight: 400;
+
+  /* Box Design code */
+  display: flex;
+  align-items: center !important;
+  width: 250px !important;
+
+  .text-black.justify-content-center.text-decoration-none {
+    line-height: 60px;
+    font-weight: 700 !important;
+  }
+
+  div a.d-flex {
+    letter-spacing: .3px !important;
+    font-weight: 600 !important;
+    height: 50px;
+    width: 250px;
+    padding: 0px 20px;
+
+    &:hover {
+      background-color: #f8fafb;
+    }
+
+    i {
+      width: 28px;
+      margin-right: 20px;
+      text-align: center;
+    }
+
+    .fa {
+      font-size: 15.8px;
+    }
+
+    .icon {
+      transition: .3s !important;
+    }
+  }
+
+  .Dropdown-Item {
+    background-color: #f8fafb;
+    cursor: pointer;
+    height: 35px !important;
+    padding-left: 65px !important;
+    padding: 0px 20px;
+
+    a {
+      font-weight: 400 !important;
+      letter-spacing: 0.3px !important;
+    }
+
+    & a:hover {
+      color: #6777ef !important;
+    }
+  }
+
+  a[aria-expanded="true"] {
+    background-color: #f8fafb !important;
+    color: #6777ef !important;
+
+
+    i.fa-angle-right {
+      transform: rotate(90deg);
+      transition: all 1s ease !important;
+    }
+  }
+
+  .h-0 {
+    height: 0px !important;
+    overflow: hidden;
+  }
+
+  .collapsing {
+    transition: height 1s !important;
+  }
+
+
+  // @Keshava Don't Remove this code
+  //  Testing Purpose for Design making.
+  // -----------------------------------------------------------------------
+  // a {
+    // transition: all .5s;
+    // background-color: red !important;
+  // }
+
+
+  // ::-webkit-scrollbar {
+  //   width: 1px !important;
+  // }
+
+  // ::-webkit-scrollbar {
+  //   width: 5px !important;
+  // }
+
+  // ::-webkit-scrollbar-thumb {
+  //   background: gray;
+  //   border-radius: 10px;
+  // }
+}

@@ -1,0 +1,27 @@
+@media screen and (min-width: 300px) {
+  .card {
+    width: 320px !important;
+  }
+}
+
+.container-fluid {
+  background-color: #f4f6f9 !important;
+  font-family: 'Nunito', sans-serif;
+}
+
+.card {
+  border-top: solid 2px #0d6efd !important;
+}
+
+.card-header {
+  border-bottom-color: #f9f9f9 !important;
+}
+
+.inputs {
+  background-color: #fdfdff !important;
+  // border-color: #e4e6fc !important;
+}
+
+.inputs:focus-visible {
+  border: 1px solid #0d6efd !important ;
+}
